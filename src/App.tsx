@@ -1,10 +1,16 @@
-import { PDFViewer } from "@react-pdf/renderer"
-import { ResumeDocument } from "./Resume"
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import EnglishResume from './pages/EnglishResume';
+import ChineseResume from './pages/ChineseResume';
 
-const APP = () => (
-    <PDFViewer width="100%" height="100%" style={{ border: 'none' }}>
-      <ResumeDocument />
-    </PDFViewer>
+const App = () => (
+    <Router basename="/react-resume">
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/en" element={<EnglishResume />} />
+            <Route path="/zh" element={<ChineseResume />} />
+        </Routes>
+    </Router>
 );
 
-export default APP;
+export default App;
