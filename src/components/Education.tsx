@@ -19,7 +19,7 @@ export const Education = ({ styles }: EducationProps) => (
             </View>
             <Text style={styles.entryMeta}>Shanghai, China</Text>
             <View style={styles.bulletList}>
-                <Bullet styles={styles}>GPA: 3.68 / 4.0.</Bullet>
+                <Bullet styles={styles}>GPA: 3.68 / 4.00.</Bullet>
                 <Bullet styles={styles}>Recipient of Fudan University Outstanding Student Award with scholarship.</Bullet>
             </View>
         </View>
