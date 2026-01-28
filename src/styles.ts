@@ -56,7 +56,7 @@ export const createStyles = (fontFamily: string) =>
         emailContainer: {
             flexDirection: "row",
             alignItems: "center",
-            marginRight: 12,
+            marginRight: 36,
             marginBottom: 4,
         },
         emailIcon: {
@@ -70,7 +70,7 @@ export const createStyles = (fontFamily: string) =>
         githubContainer: {
             flexDirection: "row",
             alignItems: "center",
-            marginRight: 12,
+            marginRight: 36,
             marginBottom: 4,
         },
         githubIcon: {
@@ -85,7 +85,7 @@ export const createStyles = (fontFamily: string) =>
         phoneContainer: {
             flexDirection: "row",
             alignItems: "center",
-            marginRight: 12,
+            marginRight: 36,
             marginBottom: 4,
         },
         phoneIcon: {
@@ -99,7 +99,7 @@ export const createStyles = (fontFamily: string) =>
         wechatContainer: {
             flexDirection: "row",
             alignItems: "center",
-            marginRight: 12,
+            marginRight: 36,
             marginBottom: 4,
         },
         wechatIcon: {
