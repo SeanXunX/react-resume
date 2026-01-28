@@ -77,3 +77,22 @@ export const BulletWithItem = ({ title, desc, styles }: ItemProps) => {
         </Text>
     );
 };
+
+export const Item = ({ title, desc, styles }: ItemProps) => {
+    const parts = highlightTechTerms(desc);
+
+    return (
+        <Text style={styles.bulletItem}>
+            <Text style={{ fontWeight: "bold" }}>{title}:</Text>{" "}
+            {parts.map((part, idx) =>
+                part.type === "tech" ? (
+                    <Text key={idx} style={styles.techTerm}>
+                        {part.content}
+                    </Text>
+                ) : (
+                    <Text key={idx}>{part.content}</Text>
+                )
+            )}
+        </Text>
+    );
+};

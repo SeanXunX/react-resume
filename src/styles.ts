@@ -21,7 +21,7 @@ export const createStyles = (fontFamily: string) =>
     StyleSheet.create({
         page: {
             padding: 32,
-            fontSize: 10,
+            fontSize: 11,
             fontFamily: fontFamily,
             color: "#2a2a2a",
             lineHeight: 1.4,
@@ -37,7 +37,7 @@ export const createStyles = (fontFamily: string) =>
             fontWeight: "bold",
             letterSpacing: 5,
             marginBottom: 20,
-            textTransform: "uppercase",
+            // textTransform: "uppercase",
         },
         role: {
             fontSize: 11,
@@ -65,7 +65,7 @@ export const createStyles = (fontFamily: string) =>
             marginRight: 4,
         },
         emailText: {
-            fontSize: 10,
+            fontSize: 11,
         },
         githubContainer: {
             flexDirection: "row",
@@ -79,7 +79,7 @@ export const createStyles = (fontFamily: string) =>
             marginRight: 4,
         },
         githubText: {
-            fontSize: 10,
+            fontSize: 11,
             color: "#0b5394",
         },
         phoneContainer: {
@@ -94,7 +94,21 @@ export const createStyles = (fontFamily: string) =>
             marginRight: 4,
         },
         phoneText: {
-            fontSize: 10,
+            fontSize: 11,
+        },
+        wechatContainer: {
+            flexDirection: "row",
+            alignItems: "center",
+            marginRight: 12,
+            marginBottom: 4,
+        },
+        wechatIcon: {
+            width: 10,
+            height: 10,
+            marginRight: 4,
+        },
+        wechatText: {
+            fontSize: 11,
         },
         body: {
             flexDirection: "row",
@@ -124,16 +138,16 @@ export const createStyles = (fontFamily: string) =>
             alignItems: "baseline",
         },
         entryTitle: {
-            fontSize: 11,
+            fontSize: 12,
             fontWeight: "bold",
         },
         entryMeta: {
-            fontSize: 9,
+            fontSize: 10,
             color: "#555555",
             marginBottom: 2,
         },
         techStack: {
-            fontSize: 8.5,
+            fontSize: 9.5,
             color: "#666666",
             fontWeight: "bold",
             marginTop: 2,
@@ -143,7 +157,7 @@ export const createStyles = (fontFamily: string) =>
             marginTop: 4,
         },
         bulletItem: {
-            fontSize: 9.5,
+            fontSize: 12,
             marginBottom: 6,
             lineHeight: 1.4,
             textAlign: "left",
@@ -154,7 +168,7 @@ export const createStyles = (fontFamily: string) =>
             marginTop: 6,
         },
         tag: {
-            fontSize: 9,
+            fontSize: 10,
             backgroundColor: "#e8f0fe",
             color: "#0b5394",
             paddingVertical: 2,
@@ -164,12 +178,12 @@ export const createStyles = (fontFamily: string) =>
             marginBottom: 4,
         },
         infoText: {
-            fontSize: 9.5,
+            fontSize: 10.5,
             marginBottom: 4,
             textAlign: "justify",
         },
         paragraph: {
-            fontSize: 9.5,
+            fontSize: 10.5,
             marginBottom: 4,
             lineHeight: 1.5,
             textAlign: "justify",
@@ -181,6 +195,6 @@ export const createStyles = (fontFamily: string) =>
             paddingHorizontal: 3,
             paddingVertical: 1,
             borderRadius: 2,
-            fontSize: 9.5,
+            fontSize: 10.5,
         },
     });
