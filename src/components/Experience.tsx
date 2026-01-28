@@ -13,7 +13,7 @@ export const InternExperience = ({ styles }: ExperienceProps) => (
     <View style={styles.entry}>
       <View style={styles.entryHeader}>
         <Text style={styles.entryTitle}>
-          Xiaohongshu (RedNote) - SWE Intern, NoSQL Infra Group
+          Xiaohongshu (RedNote) - SWE Intern
         </Text>
         <Text style={styles.entryMeta}>Nov. 2025 - Feb. 2026</Text>
       </View>
@@ -29,8 +29,7 @@ export const InternExperience = ({ styles }: ExperienceProps) => (
         </Bullet>
         <Bullet styles={styles}>
           Contributed to the NoSQL Cloud Data Management Platform by developing backend
-          microservices for cluster management, including automated
-          scaling and rolling version upgrades.
+          microservices for automated scaling k8s clusters and rolling version upgrades.
         </Bullet>
       </View>
     </View>
@@ -50,7 +49,7 @@ export const ResearchExperience = ({ styles }: ExperienceProps) => (
       </View>
       <View style={styles.bulletList}>
         <Bullet styles={styles}>
-          Proposed a latent memory–augmented architecture that couples a frozen
+          Proposed a latent memory augmented architecture that couples a frozen
           LLM backbone with a trainable memory bank, using a GRU-style gated
           update rule to selectively preserve or overwrite memory slots during
           long-context reasoning.

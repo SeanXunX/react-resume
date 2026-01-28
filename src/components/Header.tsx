@@ -15,7 +15,7 @@ type HeaderProps = {
     styles: ReturnType<typeof createStyles>;
 }
 
-export const Header = ({ name, role, email, username, phone, wechat, styles }: HeaderProps) => (
+export const Header = ({ name, email, username, phone, wechat, styles }: HeaderProps) => (
     <View style={styles.headerSection}>
         <Text style={styles.name}>{name}</Text>
         {/* <Text style={styles.role}>{role}</Text> */}

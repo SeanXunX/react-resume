@@ -1,6 +1,6 @@
 import { Text, View } from "@react-pdf/renderer";
 import { createStyles } from "../styles";
-import { BulletWithItem, Item } from "./BulletPoints";
+import { Item } from "./BulletPoints";
 
 type SkillsProps = {
   styles: ReturnType<typeof createStyles>;
@@ -24,7 +24,7 @@ export const Skills = ({ styles }: SkillsProps) => (
         <Item
           styles={styles}
           title="Programming Languages"
-          desc="Familiar with Python for AI integration and writing scripts. Having strong expertise in Golang for building high-concurrency backend systems and solid foundation in C++."
+          desc="Familiar with Python for research prototyping, experiment workflows, and data processing. Having strong expertise in Golang for building high-concurrency backend systems and solid foundation in C++."
         />
         <Item
           styles={styles}
