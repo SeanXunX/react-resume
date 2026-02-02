@@ -19,8 +19,12 @@ export const Education = ({ styles }: EducationProps) => (
             </View>
             <Text style={styles.entryMeta}>Shanghai, China</Text>
             <View style={styles.bulletList}>
-                <Bullet styles={styles}>GPA: 3.68 / 4.00.</Bullet>
-                <Bullet styles={styles}>Recipient of Fudan University Outstanding Student Award with scholarship.</Bullet>
+                <Bullet styles={styles}>
+    <Text>
+        <Text style={styles.bold}>Avg. Score: 92/100</Text> (GPA: 3.68/4.0)
+    </Text>
+</Bullet>
+                <Bullet styles={styles}>Recipient of <Text style={styles.bold}>Fudan University Outstanding Student Award</Text> with scholarship.</Bullet>
             </View>
         </View>
     </View>

@@ -19,6 +19,9 @@ Font.register({
 
 export const createStyles = (fontFamily: string) =>
     StyleSheet.create({
+        bold: {
+            fontWeight: "bold",
+        },
         page: {
             padding: 32,
             fontSize: 11,
