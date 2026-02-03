@@ -8,7 +8,7 @@ const Home = () => (
         <button style={{ padding: '15px 30px', fontSize: '16px', cursor: 'pointer' }}>English Resume (Work)</button>
       </Link> */}
       <Link to="/research_en">
-        <button style={{ padding: '15px 30px', fontSize: '16px', cursor: 'pointer' }}>English Resume (Research)</button>
+        <button style={{ padding: '15px 30px', fontSize: '16px', cursor: 'pointer' }}>English</button>
       </Link>
       {/* <Link to="/zh">
         <button style={{ padding: '15px 30px', fontSize: '16px', cursor: 'pointer' }}>Chinese Resume (Work)</button>

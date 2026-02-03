@@ -17,9 +17,7 @@ export const InternExperience = ({ styles }: ExperienceProps) => (
         </Text>
         <Text style={styles.entryMeta}>Nov. 2025 - Feb. 2026</Text>
       </View>
-      <Text style={styles.entryMeta}>
-        Shanghai, China
-      </Text>
+      <Text style={styles.entryMeta}>Shanghai, China</Text>
       <View style={styles.bulletList}>
         <Bullet styles={styles}>
           Led the engineering implementation of an LLM-based AIOps Agent
@@ -28,8 +26,9 @@ export const InternExperience = ({ styles }: ExperienceProps) => (
           internal infrastructure APIs.
         </Bullet>
         <Bullet styles={styles}>
-          Contributed to the NoSQL Cloud Data Management Platform by developing backend
-          microservices for automated scaling k8s clusters and rolling version upgrades.
+          Contributed to the NoSQL Cloud Data Management Platform by developing
+          backend microservices for automated scaling k8s clusters and rolling
+          version upgrades.
         </Bullet>
       </View>
     </View>
@@ -47,6 +46,7 @@ export const ResearchExperience = ({ styles }: ExperienceProps) => (
         </Text>
         <Text style={styles.entryMeta}>Jun. 2025 - Sept. 2025</Text>
       </View>
+      <Text style={styles.entryMeta}>Preprint at arXiv</Text>
       <View style={styles.bulletList}>
         <Bullet styles={styles}>
           Proposed a latent memory augmented architecture that couples a frozen
