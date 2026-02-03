@@ -26,7 +26,7 @@ export const InternExperience = ({ styles }: ExperienceProps) => (
           internal infrastructure APIs.
         </Bullet>
         <Bullet styles={styles}>
-          Contributed to the NoSQL Cloud Data Management Platform by developing
+          Contributed to the Cloud Data Management System by developing
           backend microservices for automated scaling k8s clusters and rolling
           version upgrades.
         </Bullet>

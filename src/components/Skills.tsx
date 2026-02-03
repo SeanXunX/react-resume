@@ -24,12 +24,12 @@ export const Skills = ({ styles }: SkillsProps) => (
         <Item
           styles={styles}
           title="Programming Languages"
-          desc="Familiar with Python for research prototyping, experiment workflows, and data processing. Having strong expertise in Golang for building high-concurrency backend systems and solid foundation in C++."
+          desc="Proficient in Python for research prototyping and experimental pipelines; experienced in Go for high-concurrency systems; strong foundation in C++."
         />
         <Item
           styles={styles}
           title="Tools & System"
-          desc="Skilled in Docker containerization and managing complex Linux environments. Experienced in collaborative Git workflows."
+          desc="Skilled in Docker containerization, managing Linux environments and collaborative Git workflows."
         />
         <Item
           styles={styles}
